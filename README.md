@@ -1,0 +1,2 @@
+- For PostgreSQL test open "postgres_test.md"
+- For Golang test open "golang_test.md"
