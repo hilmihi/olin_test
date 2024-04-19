@@ -1,0 +1,91 @@
+{
+	"info": {
+		"_postman_id": "97ce75a2-9286-4bfd-a7da-4b520bb9f349",
+		"name": "OLIN Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7528622"
+	},
+	"item": [
+		{
+			"name": "Soal1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nums\": [2,7,11,15],\r\n    \"target\": 9\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9000/soal-1",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"soal-1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Soal2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nums\": [-1,0,1,2,-1,-4]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9000/soal-2",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"soal-2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Soal3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nums\": [-1,0,1,2,-1,-4]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9000/soal-2",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"soal-2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
